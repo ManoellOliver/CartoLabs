@@ -1,0 +1,38 @@
+⚽ CartolaLabs Pro - Field Vision
+O CartolaLabs Pro é um simulador inteligente para o Cartola FC que utiliza algoritmos de otimização para escalar o melhor time possível baseado em um orçamento definido pelo usuário. O diferencial deste projeto é a visualização tática em um campo de futebol estilizado, simulando a experiência real do jogo.
+
+🚀 Funcionalidades
+Conexão Direta com a API: Busca dados em tempo real da API oficial do Cartola FC (preços, médias e fotos).
+
+Algoritmo de Escalação: Otimiza o time buscando a maior média possível dentro do orçamento (C$) estipulado.
+
+Visual Tático Premium: Renderização de um campo de futebol via CSS, com posicionamento dinâmico dos jogadores nas formações 4-3-3 ou 4-4-2.
+
+Status do Mercado: Monitoramento em tempo real se o mercado está Aberto ou Fechado.
+
+Sistema de Capitão: Identifica automaticamente o jogador com maior potencial para ser o capitão, aplicando destaque visual (ring verde neon).
+
+🛠️ Tecnologias Utilizadas
+Python - Linguagem base.
+
+Streamlit - Framework para a criação da interface web.
+
+Pandas - Manipulação e análise de dados.
+
+Requests - Consumo da API do Cartola.
+
+CSS3 Customizado - Estilização do campo e dos cards dos atletas.
+
+📦 Como rodar o projeto localmente
+Clone o repositório:
+
+Bash
+git clone https://github.com/SEU-USUARIO/NOME-DO-REPO.git
+Instale as dependências:
+
+Bash
+pip install -r requirements.txt
+Execute a aplicação:
+
+Bash
+streamlit run app.py
